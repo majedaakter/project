@@ -1,0 +1,230 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+  
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+  }
+  .banner{
+     
+      margin-left: 80px;
+  }
+  .text-left{
+      width: 40%;
+      display: inline-block;
+     padding-top: -500px
+    ;
+  }
+  .text-left-heading{
+    font-size: 50px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.575);
+    line-height: 80px;  
+  }
+  .text-left-heading-skip{
+      font-size: 60px;
+      font-weight: 600;
+      color: rgb(251, 147, 74);
+  }
+  .text-left-para{
+      font-size: 25px;
+      color: rgba(27, 27, 27, 0.568);
+      padding-top: 30px;
+      padding-bottom: 30px;
+      line-height: 30px;
+  }
+  .banner-btn{
+      font-size: 1rem;
+      text-transform: capitalize;
+      padding: 1rem 1.5rem;
+      border-radius: 3.2rem;
+      background: linear-gradient( to right, #fb8e49, #f64e2f);
+      transition: 0.8s all ease;
+      color: #fff;
+      box-shadow: 2px 2px 5px  #fb924a,-1px -1px 5px #fb924a;
+      display: inline-block;
+      ;
+  }
+  .btn:hover {
+    background: linear-gradient(to right, #f64e2f, #fb8e49);
+    transition: 0.8s all ease;
+  }
+  .img-right{
+     display: inline-block;
+      width: 40%;
+  }
+  .firstpicture{
+      width:640px;
+       display: inline-block; 
+     
+      height: 700px;
+      padding-left: 150px;
+     padding-top: 150px;
+      margin-top: -80px;
+  }
+  /*banner css end*/
+
+  .aboutme{
+      background-image: url(../imges/7.png);
+      margin-top: 50px;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+
+  .aboutimg{
+      width: 40%;
+      display: inline-block;
+  }
+  .aboutpicture{
+      width:450px;
+      height: 80vh;
+      padding-left: 150px;
+      padding-top: 50px;
+  }
+  .abouttext{
+      width: 50%;
+      float: right;
+     
+  }
+  .aboutheading{
+    font-size: 40px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.637);
+   padding-top: 150px;
+   padding-bottom: 30px;
+  }
+  .aboutpara{
+    font-size: 20px;
+    color: rgba(27, 27, 27, 0.644);
+   
+    padding-bottom: 30px;
+    line-height: 35px;
+    padding-right: 250px;
+} 
+  /*about css end*/
+
+  .blog-heading{
+    font-size: 40px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.836);
+    padding-top: 50px; 
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  .blog-paragraph{
+    font-size: 20px;
+    color: rgba(27, 27, 27, 0.644);
+   margin: 0 auto;
+   padding-left: 60px;
+    line-height: 35px;
+   padding-right: 100px;
+   padding-bottom: 20px;
+    width: 60%;
+    text-align: center;
+}  
+  
+
+.blog-box {
+    display: flex;
+    padding: 5rem 7rem 0 7rem;
+  }
+  .onecard{
+      width: 100%;
+  }
+  .blog-box-one{
+    padding: 20px;
+    width: 30%;
+    height: 450px;
+    border-radius: 30px;
+    box-shadow: 1px 1px 15px #828282, -1px -1px 15px #828282;
+    cursor: pointer; 
+     transition: 0.2s all ease; 
+     margin-right: 80px;
+}
+
+.blog-box-one:hover{
+    transform: scale(1.05);
+    transition: 0.2 all ease; 
+}
+.cardheading{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.card-para{
+    font-size: 18px;
+      color: rgba(27, 27, 27, 0.877);
+     
+      padding-bottom: 30px;
+      line-height: 30px;
+}
+
+/*blog css end*/
+
+.subscribe {
+    margin: 10rem 5rem 5rem 7rem;
+    display: flex;
+    box-shadow: 1px 1px 15px #828282, -1px -1px 15px #828282;
+    border-radius: 1.5rem;
+  }
+  .subscribe-item {
+    width: 33%;
+    display: grid;
+    justify-content: center;
+    padding: 2rem 3rem;
+  }
+  
+  .subscribe-item-heading {
+    font-size: 4rem;
+    text-transform: capitalize;
+    color: black;
+    font-weight: 700;
+  }
+  .subscribe-item-text {
+    font-size: 1.4rem;
+    color: #575757;
+    font-weight: 500;
+  }
+  /* Suncribe Section CSS End */
+  
+  /* Footer CSS Start */
+  .footer {
+    background-color: #0b0d17;
+    padding-top: 5rem;
+  }
+  
+  .footer-heading {
+    font-size: 3rem;
+    text-transform: capitalize;
+    color: #5b5b5b;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+  }
+  .footer-heading-color-text {
+    color: #fb994c;
+  }
+  
+  .footer-text {
+    font-size: 1.2rem;
+    color: #fff;
+    font-weight: 300;
+    letter-spacing: 0.1rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .footer-copyright {
+    font-size: 2rem
+    
+    font-weight: 300;
+    letter-spacing: 0.1rem;
+    text-align: right;
+  
+   color: #fff;
+  }
+  /* Footer CSS End */
